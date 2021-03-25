@@ -2,9 +2,9 @@
 Multidimensional Array
 
 1. Buatlah sebuah menu sidebar menggunakan konsep multidimensional array.
-  1 baris array terpisahkan oleh sebuah underline. 
+2. 1 baris array terpisahkan oleh sebuah underline.
   Banyaknya link berasal dari data pada array.
   
-2. Buat 1 buah form contact us lalu tampilkan inputnya ketika user melakukan event onclick
+3. Buat 1 buah form contact us lalu tampilkan inputnya ketika user melakukan event onclick
 
 

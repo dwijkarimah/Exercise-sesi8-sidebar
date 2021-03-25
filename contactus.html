@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        label, input{
+          display: block;
+        }
+  
+        label{
+          margin-bottom: 30px;
+        }
+      </style>
+</head>
+<body>
+    
+        <div class="container">
+                <h1>Contact Us</h1>
+                  <form>
+                        <p>
+                                <label>
+                                  Name: <input type="text" name="name" id="message">
+                                </label>
+                                </p>
+                                <p>
+                                <label>
+                                  Email : <input type="text" name="Email" id="email">
+                                </label>
+                                </p>
+                                <p>
+                                <label>
+                                  Message : <input type="text" name="Message" id="name">
+                                <label>
+                                </p>
+                   
+       
+    
+      <button onclick="submitForm()">Submit</button>
+</body>
+</center>
+<script>
+    submitForm = () => {
+      console.log(document.getElementById('name').value)
+      console.log(document.getElementById('email').value)
+      console.log(document.getElementById('message').value)
+      document.write('<li>' + document.getElementById('name', 'email', 'message').value)
+    }
+  </script>
+</html>
+
+  
+

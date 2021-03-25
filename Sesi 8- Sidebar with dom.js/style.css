@@ -1,0 +1,64 @@
+body{
+    background: #EBEBEB;
+    overflow-y: scroll;
+    overflow-x: hidden;
+ }
+
+ #wrapper{
+     width: 960px;
+     margin: 0 auto;
+ }
+ #sidebar{
+    background: #DEDEDE;
+    width: 190px;
+    float: left;
+    position: fixed;
+    padding: 5px;
+ }
+ #content{
+    float: left;
+    width: 760px;
+    margin-left: 200px;
+    padding: 10px;
+    background: #F5EDF0;
+  }
+ 
+ ul{
+     background: pink;
+    padding: 5px;
+ }
+
+ ul li{
+    list-style-type: none;
+    border-bottom: 1px solid #F5EDF0;
+ }
+
+ ul li a{
+    text-decoration: none
+ }
+
+ 
+#sidebar{
+    background: #DEDEDE;
+    width: 190px;
+    float: left;
+    position: fixed;
+    padding: 5px;
+ }
+
+ #content{
+   float: left;
+   width: 760px;
+   margin-left: 200px;
+   padding: 10px;
+   background: #F5EDF0;
+ }
+
+
+ #content{
+   float: left;
+   width: 760px;
+   margin-left: 200px;
+   padding: 10px;
+   background: #F5EDF0;
+ }
